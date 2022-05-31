@@ -1,0 +1,113 @@
+body {
+    background-color:#CCC;
+    margin: 100px;
+}
+
+.selections {
+    display: flex;
+    justify-content: center;
+}
+
+.rock {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 10rem;
+    transition: 100ms;
+}
+
+.paper {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 10rem;
+    transition: 100ms;
+}
+
+.scissors {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 10rem;
+    transition: 100ms;
+}
+
+.play-button {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 10rem;
+    transition: 100ms;
+}
+
+.play-button-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.rock:hover {
+    transform: scale(1.3);
+}
+
+.paper:hover {
+    transform: scale(1.3);
+}
+
+.scissors:hover {
+    transform: scale(1.3);
+}
+
+.play-button:hover {
+    transform: scale(1.3);
+}
+
+.instructions {
+    display: grid;
+    justify-content: center;
+    margin-top: 1.5rem;
+    font-size: 2rem;
+}
+
+.results {
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+#player-score {
+    font-size: 3rem;
+    color: orange;
+    
+}
+
+#computer-score {
+    font-size: 3rem;
+    color: orange;
+    
+}
+
+.announcement {
+    display: flex;
+    font-size: 2rem;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+    
+}
+
+#win-or-lose-text {
+    display: grid;
+    font-size: 5rem;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
